@@ -1,6 +1,6 @@
 baseURL: 'https://harfoe.com/'
 # languageCode = 'en-us'
-title: 'Harfoe Lab'
+title: 'Harfoe'
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -13,7 +13,7 @@ mainsections: ["posts", "papermod"]
 
 minify:
   disableXML: true
-  # minifyOutput: true
+  minifyOutput: true
 
 pagination:
   disableAliases: false
@@ -27,17 +27,21 @@ languages:
       category: categories
       tag: tags
       series: series
-    menu:
-      main:
-        - name: Archive
-          url: archives
-          weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
+
+menu:
+  main:
+    - name: Archive
+      identifier: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      identifier: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      identifier: Tags
+      url: tags/
+      weight: 10
 
 params:
   env: production
@@ -75,16 +79,15 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "Hi there"
-    Content: >
-      👋 Welcome to my Lab!
+    Title: "Hi there \U0001F44B"
+    Content: 👋 Welcome to my Lab!
 
   socialIcons:
-    - name: "Github"
+    - name: Github
       url: "https://github.com/toyeafo"
-    - name: "LinkedIn"
+    - name: LinkedIn
       url: "https://www.linkedin.com/in/toye-afolabi/"
-    - name: "X"
+    - name: x
       url: "https://x.com/toye_afo"
 
   editPost:
@@ -92,23 +95,18 @@ params:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
-  # label:
-  # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
-  # text: "Home"
-  # icon: icon.png
-  # iconHeight: 35
-
   # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+    # disableFingerprinting: true
+    # favicon: "<link / abs url>"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
