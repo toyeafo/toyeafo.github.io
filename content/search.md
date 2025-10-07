@@ -1,5 +1,6 @@
 ---
 title: "Search"
-placeholder: Search blog
+placeholder: "Look for anything"
 layout: "search"
+summary: "search"
 ---
