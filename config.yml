@@ -1,6 +1,7 @@
 baseURL: 'https://harfoe.com/'
-# languageCode = 'en-us'
+languageCode: 'en-us'
 title: 'Harfoe'
+theme: ["PaperMod"]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -19,29 +20,24 @@ pagination:
   disableAliases: false
   pagerSize: 5
 
-languages:
-  en:
-    languageName: "English"
-    weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-
 menu:
   main:
+    - name: About
+      identifier: About
+      url: about/
+      weight: 5
     - name: Archive
       identifier: Archive
-      url: archives
-      weight: 5
+      url: archives/
+      weight: 10
     - name: Search
       identifier: Search
       url: search/
-      weight: 10
+      weight: 15
     - name: Tags
       identifier: Tags
       url: tags/
-      weight: 10
+      weight: 20
 
 params:
   env: production
@@ -52,6 +48,7 @@ params:
   defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"]
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
@@ -83,15 +80,15 @@ params:
     Content: 👋 Welcome to my Lab!
 
   socialIcons:
-    - name: Github
+    - name: "Github"
       url: "https://github.com/toyeafo"
-    - name: LinkedIn
+    - name: "LinkedIn"
       url: "https://www.linkedin.com/in/toye-afolabi/"
-    - name: x
+    - name: "X"
       url: "https://x.com/toye_afo"
 
   editPost:
-    URL: "./content"
+    URL: "https://github.com/toyeafo/toyeafo.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
