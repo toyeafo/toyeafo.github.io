@@ -5,9 +5,6 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-07T19:38:30-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-07T19:38:30-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/intro/</loc>
     <lastmod>2025-10-07T19:38:30-04:00</lastmod>
   </url><url>
@@ -25,9 +22,9 @@
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url>
