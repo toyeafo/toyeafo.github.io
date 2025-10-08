@@ -5,8 +5,8 @@ title: "Harfoe"
 
 params:
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my personal lab
+    Title: "Hi there 👋 I'm Toye."
+    Content: "Welcome to my personal lab where I share my explorations in tech, engineering, and more."
 
   socialIcons:
     - name: x
