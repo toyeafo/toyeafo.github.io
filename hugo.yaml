@@ -19,6 +19,8 @@ params:
   author: Toye
   defaultTheme: auto
   ShowReadingTime: true
+  ShowBreadCrumbs: true
+  UseHugoToC: true
 
 menu:
   main:
