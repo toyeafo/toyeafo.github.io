@@ -1,8 +1,8 @@
 ---
-title: "Archive"
-description: "A collection of posts archived."
+title: "Posts"
+description: "A collection of my posts."
 layout: "archives"
-url: "/archives"
+url: "/posts"
 summary: "archives"
 menus: main
 ---
