@@ -5,7 +5,6 @@ layout: ""
 url: "/about"
 menus: main
 ---
-## About Me
 
 Hi there! I'm Toye, a tech enthusiast and problem-solver who loves to build things. My journey has taken me from hands-on IT support to developing serverless solutions and exploring the world of AI.
 
