@@ -1,6 +1,6 @@
 ---
 title: "Search"
-placeholder: "Look for anything"
+placeholder: "Look for what interests you"
 layout: "search"
-summary: "search"
+menus: main
 ---

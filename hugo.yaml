@@ -1,0 +1,36 @@
+baseURL: https://harfoe.com
+languageCode: en-us
+theme: PaperMod
+title: "Harfoe"
+
+params:
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my personal lab
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/toye_afo"
+    - name: linkedIn
+      url: "https://www.linkedin.com/in/toye-afolabi/"
+    - name: github
+      url: "https://github.com/toyeafo"
+  
+  author: Toye
+  defaultTheme: auto
+  ShowReadingTime: true
+
+menu:
+  main:
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: Search
+      name: Search
+      url: /search/
+      weight: 30
