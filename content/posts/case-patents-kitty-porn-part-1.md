@@ -29,9 +29,9 @@ This investigation is legally sound because of a two-step process:
 
 ## 2. Digital Evidence Examined
 
-We looked at four main types of digital evidence taken from M57 Patents: hard drive images, USB drive images, RAM (random access memory) captures, and network traffic logs. 
+I looked at four main types of digital evidence taken from M57 Patents: hard drive images, USB drive images, RAM (random access memory) captures, and network traffic logs. 
 
-The physical storage devices were saved in the `.E01` (EnCase image) format. This format embeds special digital fingerprints (hash values) right into the file, making it highly reliable for court. The RAM images capture data that disappears when a computer is turned off. This helps us find active programs or unencrypted passwords. Finally, the network captures act as a historical log of data moving in and out of the company.
+The physical storage devices were saved in the `.E01` (EnCase image) format. This format embeds special digital fingerprints (hash values) right into the file, making it highly reliable for court. The RAM images capture data that disappears when a computer is turned off. This helps me find active programs or unencrypted passwords. Finally, the network captures act as a historical log of data moving in and out of the company.
 
 ### Verified Cryptographic Hashes of Acquired Files
 
@@ -52,16 +52,25 @@ The physical storage devices were saved in the `.E01` (EnCase image) format. Thi
 
 ## 3. Forensic Tools and Methods
 
-We analyzed the evidence in a secure, read-only environment to make sure nothing was accidentally changed. We used a custom-built Linux container with these industry-standard tools:
-* **The Sleuth Kit (TSK) and Autopsy:** Used to quickly analyze the file system, browse files, build timelines, and review recovered data.
+I analyzed the evidence in a secure, read-only environment to make sure nothing was accidentally changed. I used **Autopsy** and a custom Linux container (Ubuntu 22.04 LTS) operated via Docker with these industry-standard tools:
+* **The Sleuth Kit (TSK):** Used to quickly analyze the file system, browse files, build timelines, and review recovered data.
 * **bulk_extractor:** Used to quickly scan raw disk images for patterns, like email addresses.
 * **ewf-tools:** Used to safely mount and interact with the `.E01` forensic disk images.
+* **Volatility3:** Used to analyze ram images and review active processes.
 
 ---
 
 ## 4. Legal Authority
 
-The primary crime we are investigating is a felony violation for the exploitation of a non-consenting entity (Section 311.3(a)). The legal foundation rests on three recognized rules:
+The primary crime I am investigating is a felony violation for the exploitation of a non-consenting entity (Section 311.3(a)). The legal foundation rests on three recognized rules:
 1. **The Private Search Exception:** The police were legally allowed to accept the computer Aaron Greene handed over under the plain view doctrine.
 2. **Third-Party Consent:** The CEO gave police permission to search company hardware. This waives the employees' expectation of privacy over that evidence.
 3. **The Warrant:** Police got a search warrant specifically for Jo's items. The warrant explicitly authorized seizing hard drives, RAM, and USBs connected to Jo Smith between November 13 and December 12, 2009.
+
+---
+
+## Original Case Document
+
+For further details and raw data from this investigation, you can view the complete original report below.
+
+[Download the M57 Case Document (PDF)](/docs/case-patents-kitty-porn.pdf)

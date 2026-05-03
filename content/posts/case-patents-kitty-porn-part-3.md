@@ -7,7 +7,7 @@ tags: ["forensics", "steganography", "anti-forensics", "embezzlement"]
 
 ## 5. Investigative Findings (Continued)
 
-In the final phase of the investigation, we uncovered a web of embezzlement, corporate espionage, and attempts to destroy evidence. 
+In the final phase of the investigation, I uncovered a web of embezzlement, corporate espionage, and attempts to destroy evidence. 
 
 ### Terry Johnson's Embezzlement and Failed Cover-Up
 
@@ -28,7 +28,7 @@ Charlie used a three-step method to send intellectual property to an outside buy
 2. **Steganography:** He hid the password for the ZIP file ("immortal") inside the hexadecimal code of a decoy image named `microscope1.jpg`.
 3. **Payload Injection:** He injected a compressed text file into a second decoy image, `astronaut1.jpg`.
 
-By finding the hidden password, we decrypted the archive and recovered the stolen payload: two US Patents. We also extracted the injected OpenDocument Text file from the second image. 
+By finding the hidden password, I decrypted the archive and recovered the stolen payload: two US Patents. I also extracted the injected OpenDocument Text file from the second image. 
 
 ### Jo Smith's Data Destruction
 
@@ -36,4 +36,12 @@ Terry wasn't the only one covering his tracks. Jo Smith made a deliberate attemp
 
 On November 20, 2009, at exactly 21:36:24 EST, Jo executed a mass-deletion of over 40 files on the "work" USB drive. Because all 40+ files were deleted in a single second, it had to be done by an automated tool. 
 
-Jo was successful in destroying the files on the USB drive. Hexadecimal analysis showed the original images were permanently overwritten with random PDF data, making recovery impossible. However, Jo failed to sanitize the local workstation, which is where we found the surviving copy of the illegal video.
+Jo was successful in destroying the files on the USB drive. Hexadecimal analysis showed the original images were permanently overwritten with random PDF data, making recovery impossible. However, Jo failed to sanitize the local workstation, which is where I found the surviving copy of the illegal video.
+
+---
+
+## Original Case Document
+
+For further details and raw data from this investigation, you can view the complete original report below.
+
+[Download the M57 Case Document (PDF)](/docs/case-patents-kitty-porn.pdf)
