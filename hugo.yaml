@@ -2,11 +2,17 @@ baseURL: https://harfoe.com
 languageCode: en-us
 theme: PaperMod
 title: "Harfoe"
+enableRobotsTXT: true
 
 params:
+  description: "Personal blog and portfolio of Toye Afolabi — engineer, digital forensics, cloud, and space tech."
   homeInfoParams:
     Title: "Hi there 👋 I'm Toye."
     Content: "Welcome to my personal lab where I share my explorations in tech, engineering, and more."
+
+  label:
+    icon: /images/my-logo.png
+    iconHeight: 35
 
   socialIcons:
     - name: x
@@ -21,6 +27,8 @@ params:
   ShowReadingTime: true
   ShowBreadCrumbs: true
   UseHugoToC: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
 
 menu:
   main:
