@@ -5,10 +5,10 @@ title: "Harfoe"
 enableRobotsTXT: true
 
 params:
-  description: "Personal blog and portfolio of Toye Afolabi — engineer, digital forensics, cloud, and space tech."
+  description: "Personal blog and portfolio of Toye Afolabi — PhD researcher in edge AI and computer vision, engineer, digital forensics, and cloud."
   homeInfoParams:
     Title: "Hi there 👋 I'm Toye."
-    Content: "Welcome to my personal lab where I share my explorations in tech, engineering, and more."
+    Content: "Welcome to my personal lab where I share my explorations in edge AI, computer vision, tech, engineering, and more."
 
   label:
     icon: /images/my-logo.png
@@ -36,10 +36,14 @@ menu:
       name: Posts
       url: /posts/
       weight: 5
+    - identifier: Projects
+      name: Projects
+      url: /projects/
+      weight: 10
     - identifier: About
       name: About
       url: /about/
-      weight: 10
+      weight: 15
     - identifier: Tags
       name: Tags
       url: /tags/
